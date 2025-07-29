@@ -13,4 +13,4 @@ app.get("/", (req,res)=>{
     res.render("home");
 })
 
-modules.exports = app;
+module.exports = app;
